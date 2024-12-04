@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from './ThemeProvider';
-import { Button } from './ui/button';
+import { Button } from './ui/Button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/DropDownMenu';
 
 export const ModeToggle: React.FC = () => {

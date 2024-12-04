@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 
 type ButtonVariant = "default" | "destructive" | "outline" | "secondary" | "ghost" | "link";
 type ButtonSize = "default" | "sm" | "lg" | "icon";
