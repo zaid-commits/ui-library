@@ -44,7 +44,7 @@ const ButtonPage: React.FC = () => {
           <select
             value={customVariant}
             onChange={(e) => setCustomVariant(e.target.value as ButtonVariant)}
-            className="border rounded p-2"
+            className="border rounded p-2 text-black"
           >
             {variants.map((variant) => (
               <option key={variant} value={variant}>
@@ -55,7 +55,7 @@ const ButtonPage: React.FC = () => {
           <select
             value={customSize}
             onChange={(e) => setCustomSize(e.target.value as ButtonSize)}
-            className="border rounded p-2"
+            className="border rounded p-2 text-black"
           >
             {sizes.map((size) => (
               <option key={size} value={size}>
@@ -67,7 +67,7 @@ const ButtonPage: React.FC = () => {
             type="text"
             value={customText}
             onChange={(e) => setCustomText(e.target.value)}
-            className="border rounded p-2"
+            className="border rounded p-2 text-black"
             placeholder="Button text"
           />
           <Button variant={customVariant} size={customSize}>
